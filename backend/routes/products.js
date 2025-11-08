@@ -1,7 +1,5 @@
 import express from 'express';
 import Product from '../models/Product.js';
-// Add this to your products.js route temporarily to check product data
-import Product from '../models/Product.js';
 
 // Test function to check product data
 const checkProducts = async () => {

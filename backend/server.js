@@ -45,5 +45,4 @@ app.use((req, res, next) => {
 });
 app.listen(PORT, () => {
   console.log(`🚀 E-Com Server running on port ${PORT}`);
-  console.log(`📝 API available at http://localhost:${PORT}/api`);
 });

@@ -36,7 +36,8 @@ const cartSchema = new mongoose.Schema({
     default: 0 
   }
 }, {
-  timestamps: true
+  timestamps: true,
+  strictPopulate: false // Add this to allow population
 });
 
 cartSchema.pre('save', function(next) {
